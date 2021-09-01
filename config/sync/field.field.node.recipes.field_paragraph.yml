@@ -1,0 +1,21 @@
+uuid: b02302e5-309e-4e65-8bdf-d7a19f8e0dd7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_paragraph
+    - node.type.recipes
+  module:
+    - text
+id: node.recipes.field_paragraph
+field_name: field_paragraph
+entity_type: node
+bundle: recipes
+label: Paragraph
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,24 @@
+uuid: 9ef3d8d9-c27b-4d1c-a2f2-cdbc506ccc92
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.under_slider
+  module:
+    - views
+  theme:
+    - nitflex_theme
+id: views_block__under_slider_block_1
+theme: nitflex_theme
+region: under_nav_content
+weight: -9
+provider: null
+plugin: 'views_block:under_slider-block_1'
+settings:
+  id: 'views_block:under_slider-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

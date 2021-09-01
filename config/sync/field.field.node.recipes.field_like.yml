@@ -1,0 +1,19 @@
+uuid: ec25e40f-f7d7-47dc-ae4d-38225405df8f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_like
+    - node.type.recipes
+id: node.recipes.field_like
+field_name: field_like
+entity_type: node
+bundle: recipes
+label: Like
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

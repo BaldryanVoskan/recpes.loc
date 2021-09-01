@@ -1,0 +1,15 @@
+uuid: a7df1b06-d21b-4960-9451-90693a1272e7
+langcode: en
+status: true
+dependencies: {  }
+name: under_slider_3_image
+label: 'under slider 3 image'
+effects:
+  c77f5437-b3b9-40ab-808c-f6e266b6ee8a:
+    uuid: c77f5437-b3b9-40ab-808c-f6e266b6ee8a
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 314
+      height: 215
+      anchor: center-center

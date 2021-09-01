@@ -1,0 +1,24 @@
+uuid: ef92c1ee-bd80-4dca-9d43-ecf094688416
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.left_sidebar
+  module:
+    - views
+  theme:
+    - nitflex_theme
+id: views_block__left_sidebar_block_1
+theme: nitflex_theme
+region: right_sidebar
+weight: -12
+provider: null
+plugin: 'views_block:left_sidebar-block_1'
+settings:
+  id: 'views_block:left_sidebar-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

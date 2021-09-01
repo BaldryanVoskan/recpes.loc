@@ -1,0 +1,42 @@
+uuid: 9af1969d-f739-4b61-9967-69ef8edf7fbd
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_show_in
+field_name: field_show_in
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: slide
+      label: Slide
+    -
+      value: under_slide
+      label: 'Under Slide'
+    -
+      value: trending
+      label: Trending
+    -
+      value: editors_choice
+      label: 'Editor''s Choice'
+    -
+      value: about_me
+      label: 'ABOUT ME'
+    -
+      value: latest_recipes
+      label: 'LATEST RECIPES'
+    -
+      value: categories
+      label: CATEGORY
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

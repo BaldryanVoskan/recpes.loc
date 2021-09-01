@@ -1,0 +1,292 @@
+//logo and social links
+#main-all-content {
+  max-width: 999px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#under_nav_content {
+  .row.region.region-under-nav-content {
+    #block-socialmedialinks {
+      position: static;
+      margin-top: 4.8%;
+
+      .content {
+        ul {
+          display: flex;
+          justify-content: space-between;
+          width: 210px;
+
+          li {
+            font-size: 7px;
+
+            a {
+              span {
+                color: rgb(120, 120, 120);
+              }
+            }
+          }
+        }
+      }
+    }
+
+    a.navbar-brand {
+      margin-left: 22.1%;
+      margin-top: 2.6%;
+
+      img {
+        width: 139px;
+      }
+    }
+  }
+}
+
+//slide show
+
+#block-views-block-slideshow-block-1 {
+  margin-top: 2.1%;
+
+  .content {
+    .view-content.row {
+      max-height: 475px;
+    }
+
+    #flexslider-1 {
+      .flex-direction-nav {
+        .flex-nav-prev {
+          a {
+            margin-left: 0;
+            margin-top: 0;
+            height: 100%;
+          }
+        }
+
+        .flex-nav-next {
+          a {
+            height: 100%;
+            margin-left: 0;
+            margin-top: 0.7%;
+          }
+        }
+      }
+    }
+  }
+}
+
+#under_nav_content {
+  .row.region.region-under-nav-content {
+    #block-views-block-slideshow-block-1 {
+      .content {
+        .view-content.row {
+          #flexslider-1 {
+            height: 62%;
+          }
+
+          ul.slides {
+            .views-field.views-field-nothing {
+              .slider-info-parent.bg-white {
+                text-align: center;
+                transform: translate(37%, -100%);
+                width: 57.4%;
+                padding: 12px;
+
+                .star-rate-value {
+                  display: flex;
+                  justify-content: center;
+                }
+
+                .slider-category {
+                  color: rgb(255, 74, 82);
+                  font-size: 14px;
+                  margin-bottom: 13px;
+                }
+
+                .slider-title {
+                  font-size: 26px;
+                  font-family: Lora;
+                  margin-bottom: 0;
+                }
+
+                .slider-paragraph {
+                  width: 80%;
+                  margin-left: auto;
+                  margin-right: auto;
+                  margin-bottom: -5px;
+                }
+
+                .slider-time, .slider-author, .slider-like {
+                  display: inline;
+                  font-size: 13px;
+                  margin: 4px;
+
+                  img {
+                    width: 11px;
+                    display: inline;
+                    height: auto;
+                    margin: 7px;
+                    margin-left: 0;
+                    margin-right: 4px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// under slider content
+#block-views-block-under-slider-block-1 {
+  .content {
+    > div {
+      .view-content.row {
+        flex-wrap: nowrap;
+        text-align: center;
+      }
+
+
+      .row-under-slider {
+        margin: 2%;
+        margin-left: 6px;
+
+        p {
+          margin-bottom: 0;
+        }
+
+        .views-field.views-field-body {
+          font-family: serif;
+          width: 74%;
+          margin: 0 auto;
+          margin-top: 8px;
+
+          p {
+            font-size: 18px;
+          }
+        }
+
+        .views-field.views-field-field-star {
+          position: absolute;
+          margin-left: 6%;
+          width: 162px;
+          margin-top: 13px;
+
+          .field-content {
+            display: inline-flex;
+            width: 100%;
+            margin-left: 27%;
+
+            span:nth-child(2) {
+              padding-left: 15px;
+            }
+          }
+
+          span {
+            span {
+              font-size: 12px;
+            }
+          }
+
+          span:nth-child(1) {
+            font-size: 12px;
+          }
+
+          .starrating {
+            display: inline-block;
+          }
+        }
+
+        .views-field.views-field-field-category {
+          margin-top: 20px;
+          text-transform: uppercase;
+          margin-left: 4px;
+        }
+
+        .views-field.views-field-field-timestamp {
+          .field-content {
+            color: rgb(137, 137, 137);
+            width: 59px;
+            padding-left: 10px;
+            background-image: url("/themes/custom/nitflex_theme/images/clock-solid.svg");
+            background-repeat: no-repeat;
+            background-size: 11px 11px;
+            background-position-y: center;
+          }
+        }
+
+        .views-field.views-field-field-author {
+          margin-right: 1px;
+
+          .field-content {
+            padding-left: 11px;
+            width: 91px;
+            background-image: url("/themes/custom/nitflex_theme/images/user-solid.svg");
+            background-repeat: no-repeat;
+            background-size: 11px 11px;
+            background-position-y: center;
+
+            span {
+              color: rgb(137, 137, 137);
+
+            }
+          }
+        }
+
+        .views-field.views-field-field-like {
+          .field-content {
+            width: 80px;
+            background-image: url("/themes/custom/nitflex_theme/images/heart-solid.svg");
+            background-repeat: no-repeat;
+            background-size: 11px 11px;
+            background-position-y: center;
+            background-position-x: 17px;
+            padding-left: 48%;
+
+            span {
+              color: rgb(137, 137, 137);
+
+              span {
+                margin: 2px;
+                color: black;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+#under_nav_content {
+  .views-field.views-field-field-category {
+    .field-content {
+      font-size: 12px;
+      color: rgb(255, 74, 82);
+    }
+  }
+
+  .views-field.views-field-body {
+    .field-content {
+      display: inline-flex;
+
+      p {
+        font-size: 26px;
+        font-family: Lora, serif;
+      }
+    }
+  }
+
+  .views-field.views-field-field-timestamp, .views-field.views-field-field-author, .views-field.views-field-field-like {
+    display: inline-block;
+    font-size: 10px;
+    font-family: Sans-Serif;
+    margin: 3px;
+    margin-left: 7px;
+    margin-top: 47px;
+  }
+}
+
+
+
+

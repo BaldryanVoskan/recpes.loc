@@ -1,0 +1,19 @@
+uuid: 81823f17-3375-4129-81c6-75c83294cdcf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_author
+    - node.type.recipes
+id: node.recipes.field_author
+field_name: field_author
+entity_type: node
+bundle: recipes
+label: Author
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

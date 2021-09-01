@@ -1,0 +1,22 @@
+uuid: 23199154-eb55-4b99-ab7f-2f8894656f73
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - nitflex_theme
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: nitflex_theme_content
+theme: nitflex_theme
+region: content
+weight: -10
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

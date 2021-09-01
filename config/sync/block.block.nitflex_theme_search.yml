@@ -1,0 +1,23 @@
+uuid: 8760f138-40e4-43c9-b763-8f0a5a49d562
+langcode: en
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - nitflex_theme
+_core:
+  default_config_hash: Q-4EcGAsu26ICu4ejEz0uE1zv4akpiaOsizxgZfAmEw
+id: nitflex_theme_search
+theme: nitflex_theme
+region: header
+weight: -11
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+  page_id: node_search
+visibility: {  }

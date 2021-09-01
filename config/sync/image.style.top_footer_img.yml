@@ -1,0 +1,15 @@
+uuid: fa5df79d-97e6-41d3-aeb0-a85e1dfbaeee
+langcode: en
+status: true
+dependencies: {  }
+name: top_footer_img
+label: 'Top Footer img'
+effects:
+  29b87291-f6b3-409f-b03a-ffc403422d5f:
+    uuid: 29b87291-f6b3-409f-b03a-ffc403422d5f
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 313
+      height: 340
+      anchor: center-center

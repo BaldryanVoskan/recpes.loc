@@ -1,0 +1,20 @@
+name: Nitflex Theme
+type: theme
+description: Custom Nitflex Theme
+core: 8.x
+core_version_requirement: ^8 || ^9
+base theme: bootstrap_barrio
+
+
+regions:
+  header: Header
+  mythememenu: Navigation
+  under_nav_content: Under Nav Content
+  content: Content
+  right_sidebar: Sidebar Right
+  top_footer: Top Footer
+  footer: Footer
+
+libraries:
+  - nitflex_theme/global
+

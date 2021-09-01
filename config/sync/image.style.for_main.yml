@@ -1,0 +1,15 @@
+uuid: 42f5973a-5980-44f5-9db2-b693daa78327
+langcode: en
+status: true
+dependencies: {  }
+name: for_main
+label: for_main
+effects:
+  f753d867-eb23-4df4-93c9-5887e481bf06:
+    uuid: f753d867-eb23-4df4-93c9-5887e481bf06
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 809
+      height: 637
+      anchor: center-center

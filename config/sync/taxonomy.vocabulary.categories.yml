@@ -1,0 +1,8 @@
+uuid: f90eb45b-6525-4ddb-8284-3fe18bc27bca
+langcode: en
+status: true
+dependencies: {  }
+name: Categories
+vid: categories
+description: 'Used in recipes content type'
+weight: 0

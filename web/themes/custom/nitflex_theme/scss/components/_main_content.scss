@@ -1,0 +1,231 @@
+.big-container {
+  display: flex;
+  margin-top: 3.7%;
+
+  #content {
+    display: flex;
+    flex-direction: column;
+    max-width: 643px;
+
+    #block-nitflex-theme-content {
+      padding-left: 4px;
+
+    }
+
+    #block-nitflex-theme-page-title {
+      padding-left: 4px;
+      margin-bottom: 45px;
+
+      .content {
+        h1 {
+          font-size: 18px;
+          font-weight: bold;
+          margin-top: 2px;
+        }
+
+      }
+    }
+
+    #block-nitflex-theme-content, #block-nitflex-theme-content > div > .contextual-region {
+      @extend .row;
+
+    }
+
+    h1::before {
+      content: '';
+      position: absolute;
+      height: 4px;
+      background: #FF696F;
+      bottom: -20.5px;
+      width: 42px;
+      z-index: 1;
+    }
+
+    h1::after {
+      content: '';
+      position: absolute;
+      bottom: -20px;
+      left: 5px;
+      right: 0;
+      height: 3px;
+      width: 100%;
+      background-color: #D7D7D7;
+    }
+
+    .views-field.views-field-field-category {
+      color: red;
+      font-size: 14px;
+    }
+
+    // First
+    .views-row {
+      @extend .col-12;
+      text-align: center;
+      padding-left: 0;
+      padding-right: 0;
+
+      .views-field.views-field-field-category {
+        text-transform: uppercase;
+        margin-top: 19px;
+        font-size: 13px;
+        text-align: center;
+      }
+
+      .views-field.views-field-title {
+        margin-top: 8px;
+        text-align: center;
+
+        .field-content {
+          h3 {
+            font-size: 26px;
+          }
+        }
+      }
+
+      .views-field.views-field-field-star {
+        text-align: center;
+        padding-top: 6px;
+        padding-right: 19px;
+      }
+
+      .views-field.views-field-field-paragraph {
+        text-align: center;
+        padding-left: 24px;
+        width: 95%;
+        font-size: 13px;
+        color: #626262;
+
+        p {
+          margin-bottom: 13px;
+        }
+      }
+
+      .views-field.views-field-field-timestamp {
+        margin-right: 7px;
+
+        .field-content {
+          font-size: 11px;
+          color: rgb(137, 137, 137);
+
+          span {
+            img {
+              width: 12px;
+              height: auto;
+              margin-right: 7px;
+              margin-bottom: 3px;
+            }
+          }
+        }
+      }
+
+      .views-field.views-field-field-author {
+
+        .field-content:first-child {
+          margin-right: 7px;
+          margin-left: 5px;
+
+          img {
+            width: 11px;
+            height: auto;
+          }
+        }
+
+        .field-content span:nth-child(2) {
+          color: #626262;
+          font-size: 13px;
+          margin-left: 8px;
+        }
+
+        .field-content span:nth-child(3) {
+          font-size: 13px;
+        }
+
+
+      }
+
+      .views-field.views-field-field-like {
+        .field-content span:first-child {
+          margin-left: 7px;
+          margin-right: 9px;
+
+          img {
+            width: 11px;
+            height: auto;
+          }
+        }
+
+        .field-content span:nth-child(2) {
+          font-size: 12px;
+        }
+
+        .field-content span:nth-child(3) {
+          font-size: 11px;
+          color: #626262
+        }
+      }
+
+      img {
+        width: 644px;
+        height: 352px;
+      }
+    }
+
+
+    // Others
+    .views-row ~ .views-row {
+      @extend .col-6;
+      padding-left: 0;
+      padding-right: 0;
+      margin-top: 6.55%;
+
+      &:nth-child(odd) {
+        .views-field.views-field-field-image-slider {
+          padding-left: 10px;
+        }
+      }
+
+      img {
+        width: 310px;
+        height: 212px;
+      }
+
+      .views-field.views-field-field-image-slider {
+        text-align: left;
+      }
+
+      .views-field.views-field-field-timestamp {
+        .field-content {
+          color: rgb(137, 137, 137);
+
+        }
+      }
+    }
+
+    .views-field.views-field-field-star {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+
+      .field-content {
+        span {
+          display: inline-flex;
+
+          span {
+            margin-left: 6px;
+          }
+        }
+      }
+    }
+
+    .views-field.views-field-title {
+      font-size: 22px;
+      font-weight: bold;
+      font-family: Lora;
+    }
+
+    .views-field.views-field-field-timestamp, .views-field.views-field-field-author, .views-field.views-field-field-like {
+      display: inline-block;
+    }
+  }
+}
+

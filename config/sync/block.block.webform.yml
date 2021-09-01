@@ -1,0 +1,25 @@
+uuid: 7e4c2b5b-9b3c-46e1-b3f0-55d19293b42b
+langcode: en
+status: true
+dependencies:
+  config:
+    - webform.webform.get_latest_updates
+  module:
+    - webform
+  theme:
+    - nitflex_theme
+id: webform
+theme: nitflex_theme
+region: right_sidebar
+weight: -9
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: 'GET LATEST UPDATES'
+  provider: webform
+  label_display: visible
+  webform_id: get_latest_updates
+  default_data: ''
+  redirect: false
+visibility: {  }

@@ -1,0 +1,46 @@
+<?php
+
+use Drupal\node\Entity\Node;
+use Drupal\taxonomy\Entity\Term;
+
+/**
+ * Implements hook_preprocess_HOOK().
+ */
+function nitflex_theme_preprocess_views_view_field(&$variables) {
+  $view = $variables['view'];
+  if ($view->id() == 'slideshow') {
+    if ($variables['field']->field == 'nothing') {
+      /** @var Node $node */
+      $node  = $variables['row']->_entity;
+      $field_star_value = $node->get('field_star')->value;
+      $field_star = $node->field_star->view('default');
+      $field_star = render($field_star);
+      $title = $node->getTitle();
+      $paragraph = $node->get('field_paragraph')->value;
+      $time = $node->get('field_timestamp')->value;
+      $author = $node->get('field_author')->value;
+      $like = $node->get('field_like')->value;
+      $term_id= $node->get('field_category')->target_id;
+      $category=Term::load($term_id)->getName();
+      $variables['output'] =  Drupal\Core\Render\Markup::create(
+        '<div class="slider-info-parent bg-white">
+               <div class="slider-category">'.$category.'</div>
+               <div class="slider-title">' . $title . '</div>
+               <div class="star-rate-value">' . $field_star.'<span>' . $field_star_value . '/5</span></div>
+               <div class="slider-paragraph">'. $paragraph .'</div>
+               <div class="footer-group">
+               <div class="slider-time"><img src="/themes/custom/nitflex_theme/images/clock-solid.svg"> '. $time.'</div>
+               <div class="slider-author"><img src="/themes/custom/nitflex_theme/images/user-solid.svg">'.$author.'</div>
+               <div class="slider-like"><img src="/themes/custom/nitflex_theme/images/heart-solid.svg">'.$like.'</div>
+               </div>
+               </div>'
+
+      );
+
+
+
+
+
+    }
+  }
+}

@@ -1,0 +1,22 @@
+uuid: 7092c1c3-f5c3-4386-add7-b46de25f5ce5
+langcode: en
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - nitflex_theme
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: nitflex_theme_help
+theme: nitflex_theme
+region: content
+weight: -9
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

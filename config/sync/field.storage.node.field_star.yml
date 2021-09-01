@@ -1,0 +1,19 @@
+uuid: e3194e45-1e12-4e4c-b50b-4eb792c974d5
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - starrating
+id: node.field_star
+field_name: field_star
+entity_type: node
+type: starrating
+settings: {  }
+module: starrating
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

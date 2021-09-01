@@ -1,0 +1,22 @@
+uuid: ef26af34-30b8-4a32-bb37-8d95e43287c3
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - nitflex_theme
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: nitflex_theme_messages
+theme: nitflex_theme
+region: header
+weight: -8
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

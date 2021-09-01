@@ -1,0 +1,8 @@
+uuid: fa2b0de1-b6fd-444b-948c-df356dbde879
+langcode: en
+status: true
+dependencies: {  }
+id: top-nav-bar-right
+label: 'top nav bar right'
+description: ''
+locked: false

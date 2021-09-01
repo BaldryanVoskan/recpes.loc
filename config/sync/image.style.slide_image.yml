@@ -1,0 +1,15 @@
+uuid: 4a673bd0-0698-4839-9ff5-5cf23633245a
+langcode: en
+status: true
+dependencies: {  }
+name: slide_image
+label: 'Slide Image'
+effects:
+  515e75da-82f0-438f-a8df-881bba1c1eb5:
+    uuid: 515e75da-82f0-438f-a8df-881bba1c1eb5
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 884
+      height: 411
+      anchor: center-center

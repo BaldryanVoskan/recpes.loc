@@ -1,0 +1,69 @@
+#mythememenu {
+  .row.region.region-mythememenu {
+    background: black;
+    padding-bottom: 7px;
+    padding-top: 7px;
+
+    #block-nitflex-theme-topnavbar {
+      padding-left: 16.39%;
+
+      ul {
+        font-size: 13px;
+        flex-wrap: nowrap;
+
+        li {
+          a {
+            color: white;
+            padding-left: 15px;
+            padding-top: 5px;
+            padding-right: 20px;
+          }
+        }
+      }
+    }
+
+    #block-topnavbarright {
+      margin-left: auto;
+      margin-right: 18.3%;
+      font-size: 13px;
+
+      ul {
+        flex-wrap: nowrap;
+
+        li {
+          a {
+            color: white;
+          }
+        }
+
+        li:nth-child(1) {
+          background-image: url("/themes/custom/nitflex_theme/images/user-regular.svg");
+          background-repeat: no-repeat;
+          background-position-y: center;
+          background-size: 16px 21px;
+
+          a {
+            margin-left: 10px;
+          }
+
+        }
+
+        li:nth-child(2) {
+          background-image: url("/themes/custom/nitflex_theme/images/plus-solid.svg");
+          background-repeat: no-repeat;
+          background-position-y: center;
+          background-position-x: 8px;
+          background-size: 10px 10px;
+          border: 1px solid rgb(255, 74, 82);
+          background-color: rgb(255, 74, 82);
+          border-radius: 22px;
+
+          a {
+            padding-left: 21px;
+            font-size: 10.2px;
+          }
+        }
+      }
+    }
+  }
+}

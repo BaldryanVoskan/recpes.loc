@@ -1,0 +1,22 @@
+uuid: c540fba0-8538-4302-8b49-5304b3051438
+langcode: en
+status: false
+dependencies:
+  theme:
+    - nitflex_theme
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: nitflex_theme_local_tasks
+theme: nitflex_theme
+region: content
+weight: -8
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

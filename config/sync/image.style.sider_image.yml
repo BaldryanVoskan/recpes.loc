@@ -1,0 +1,15 @@
+uuid: db1e0f2e-2244-460c-8c11-62573d734f09
+langcode: en
+status: true
+dependencies: {  }
+name: sider_image
+label: 'Slider image'
+effects:
+  17e0c9fd-2280-4f27-b18b-69bc78b6a879:
+    uuid: 17e0c9fd-2280-4f27-b18b-69bc78b6a879
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 250
+      height: 250
+      anchor: center-center

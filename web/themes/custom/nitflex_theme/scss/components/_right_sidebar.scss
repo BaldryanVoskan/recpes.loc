@@ -1,0 +1,287 @@
+//Circle photo Jason Smith
+#right_sidebar {
+  margin-left: 40px;
+  max-width: 31.8%;
+
+  .row.region.region-right-sidebar {
+    #block-views-block-left-sidebar-block-1 {
+      h2 {
+        font-size: 16px;
+        margin-left: 5.2%;
+        margin-top: 2px;
+      }
+
+      h2:before {
+        content: '';
+        position: absolute;
+        margin-top: 13.6%;
+        height: 3px;
+        background: #FF696F;
+        width: 41px;
+        z-index: 1;
+        left: 5.5%;
+      }
+
+      h2:after {
+        content: '';
+        position: absolute;
+        left: 5px;
+        right: 0;
+        height: 2px;
+        margin: 13.6%;
+        width: 83%;
+        background-color: #D7D7D7;
+      }
+
+      .views-row {
+        .views-field.views-field-title {
+          text-align: center;
+          margin-top: 6%;
+
+          .field-content {
+            font-family: cursive;
+            font-style: italic;
+            font-size: 22px;
+          }
+        }
+
+        .views-field.views-field-field-paragraph {
+          margin-top: 6%;
+          text-align: center;
+          padding-left: 9px;
+          font-size: 12px;
+
+          .field-content {
+            p {
+              line-height: 22px;
+            }
+          }
+        }
+
+        margin-top: 14%;
+
+        img {
+          margin-left: 21%;
+          border-radius: 50%;
+          width: 197px;
+          height: auto;
+        }
+      }
+    }
+  }
+
+
+  //Latest Recipes
+
+  #block-views-block-latest-recipes-block-1 {
+    margin-top: 6%;
+
+    h2 {
+      font-size: 17px;
+      text-transform: uppercase;
+      padding-left: 3.7%;
+    }
+
+    h2:before {
+      content: '';
+      position: absolute;
+      margin-top: 45px;
+      height: 3px;
+      left: 17px;
+      background: #FF696F;
+      width: 42px;
+      z-index: 1;
+    }
+
+    h2:after {
+      content: '';
+      position: absolute;
+      right: 0;
+      height: 2px;
+      margin-top: 45px;
+      left: 17px;
+      background-color: #D7D7D7;
+    }
+
+    .views-row {
+      margin-top: 19px;
+      padding-left: 5%;
+
+      .views-field.views-field-nothing {
+        .field-content {
+          .latest-recipes {
+            display: flex;
+
+            .info-wrapper {
+              .category {
+                color: #ff4a52;
+                font-size: 12px;
+                text-transform: uppercase;
+                margin-left: 11px;
+                line-height: 10px;
+              }
+
+              .title {
+                font-weight: bold;
+                font-size: 12px;
+                margin-left: 13px;
+                margin-top: 9px;
+                width: 90%;
+              }
+            }
+
+            .author span:first-child {
+              margin-left: 13px;
+
+              img {
+                width: 11px;
+                height: auto;
+              }
+            }
+
+            .author span:last-child {
+              margin-left: 2%;
+              font-size: 13px;
+              color: black;
+
+              span {
+                span {
+                  color: #898989;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .view-content.row .views-row:first-child {
+      margin-top: 48px;
+    }
+  }
+}
+
+
+//Categories
+.big-container {
+  #right_sidebar {
+    .row.region.region-right-sidebar {
+      #block-views-block-right-sidebar-footer-block-1 {
+        width: 100%;
+        margin-top: 35px;
+
+        h2 {
+          font-size: 16px;
+          margin-left: 17px;
+        }
+
+        h2:before {
+          content: '';
+          position: absolute;
+          margin-top: 44px;
+          height: 4px;
+          left: 16px;
+          background: #FF696F;
+          width: 43px;
+          z-index: 1;
+        }
+
+        h2:after {
+          content: '';
+          position: absolute;
+          right: 0;
+          height: 2px;
+          margin-top: 45px;
+          left: 17px;
+          background-color: #D7D7D7;
+        }
+
+        .content {
+          > div {
+            .view-content.row {
+              margin-left: 3px;
+
+              .table-responsive.col {
+                margin-top: 22px;
+                padding-right: 0;
+                padding-left: 0;
+
+                tbody {
+                  td {
+                    background: white;
+                    border: 1px solid white;
+                    padding: 0;
+                    padding-top: 12px;
+                    padding-left: 10px;
+                    line-height: 20px;
+                  }
+
+                  td.views-field.views-field-name-1 {
+                    padding-left: 0;
+                    text-align: right;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+  }
+}
+
+// webform
+#right_sidebar {
+  .row.region.region-right-sidebar {
+    #block-webform {
+      width: 94%;
+      margin-top: 22px;
+      padding: 29px;
+      margin-left: 15px;
+      text-align: center;
+      background-color: #f0f0f0;
+      padding-bottom: 36px;
+
+      h2 {
+        font-size: 16px;
+        padding-top: 5px;
+        margin-bottom: 0;
+        font-family: serif;
+      }
+
+      .content {
+        form {
+          fieldset {
+            text-align: center;
+            margin-bottom: 0;
+
+            label {
+              color: rgba(120, 120, 120, 120);
+              font-size: 13px;
+            }
+
+            input {
+              width: 89%;
+              margin-left: 13px;
+              margin-top: 13px;
+              height: 43px;
+              border: 1px solid white;
+            }
+          }
+
+          #edit-actions {
+            input {
+              background-color: #ff4a52;
+              border: 1px solid #ff4a52;
+              width: 89%;
+              margin-top: 6px;
+              height: 44px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+

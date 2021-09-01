@@ -1,0 +1,15 @@
+uuid: e8e6a8e5-cb69-431e-9ac8-e4c59091d3d2
+langcode: en
+status: true
+dependencies: {  }
+name: image_circle
+label: 'image circle'
+effects:
+  615e2fef-b8e5-4c61-9e8d-a7701037aec5:
+    uuid: 615e2fef-b8e5-4c61-9e8d-a7701037aec5
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 190
+      height: 190
+      anchor: center-center

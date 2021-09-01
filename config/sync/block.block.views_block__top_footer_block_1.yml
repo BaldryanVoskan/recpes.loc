@@ -1,0 +1,24 @@
+uuid: 550a6351-e995-4fde-8f4a-f007ccb85d4b
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.top_footer
+  module:
+    - views
+  theme:
+    - nitflex_theme
+id: views_block__top_footer_block_1
+theme: nitflex_theme
+region: top_footer
+weight: 0
+provider: null
+plugin: 'views_block:top_footer-block_1'
+settings:
+  id: 'views_block:top_footer-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

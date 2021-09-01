@@ -1,0 +1,25 @@
+uuid: 1ff4826b-f5a3-4078-9883-9feb7cbf70f5
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.top-nav-bar
+  module:
+    - system
+  theme:
+    - nitflex_theme
+id: nitflex_theme_topnavbar
+theme: nitflex_theme
+region: mythememenu
+weight: -13
+provider: null
+plugin: 'system_menu_block:top-nav-bar'
+settings:
+  id: 'system_menu_block:top-nav-bar'
+  label: 'top nav bar'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

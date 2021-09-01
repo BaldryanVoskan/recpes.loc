@@ -1,0 +1,15 @@
+uuid: 1a345566-b35d-4f7d-ad58-bbc83a432a99
+langcode: en
+status: true
+dependencies: {  }
+name: right_sidebar_style
+label: right_sidebar_style
+effects:
+  3866a2c5-bf07-4563-ae4b-ab86c750456e:
+    uuid: 3866a2c5-bf07-4563-ae4b-ab86c750456e
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 77
+      height: 77
+      anchor: center-center

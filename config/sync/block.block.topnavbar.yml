@@ -1,0 +1,25 @@
+uuid: 728a6bc6-e147-4486-a4e5-d5fae0e0136d
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.top-nav-bar
+  module:
+    - system
+  theme:
+    - stark
+id: topnavbar
+theme: stark
+region: header
+weight: 0
+provider: null
+plugin: 'system_menu_block:top-nav-bar'
+settings:
+  id: 'system_menu_block:top-nav-bar'
+  label: 'top nav bar'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }
